@@ -5,5 +5,5 @@ scikit-learn
 mlflow
 uvicorn
 boto3
-psycopg2
+psycopg2-binary
 plotly
