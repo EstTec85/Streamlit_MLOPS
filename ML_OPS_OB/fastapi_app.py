@@ -8,7 +8,7 @@ import pickle
 app = FastAPI()
 
 # Cargar el pipeline completo (preprocesamiento + modelo)
-with open("/Users/estebanjimenez/Library/CloudStorage/OneDrive-Personal/Tec_Monterrey/Maestria_Aya/MLOPS/ML_OPS_OB/ML_OPS_OB/pages/best_model.pkl", "rb") as f:
+with open("/Users/estebanjimenez/Library/CloudStorage/OneDrive-Personal/Tec_Monterrey/Maestria_Aya/MLOPS/ML_OPS_OB/Streamlit_MLOPS/ML_OPS_OB/pages/best_model.pkl", "rb") as f:
     model_pipeline = pickle.load(f)
 
 # Definir la estructura de entrada esperada
